@@ -1,0 +1,70 @@
+.hero5{
+    height: 100vh;
+    background: linear-gradient(180deg, hsl(177, 80%, 67%), #e1ffea22 80%);;
+    display: flex;
+}
+.hero5-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+.hero5-left h2{
+    color: #090909;
+    font-size: 26px;
+    font-weight: 600;
+}
+.hero5-left p{
+    color: #171717;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.contact-form-box {
+    margin-top: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    justify-content: center;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type='text'],
+textarea,
+select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    z-index: 1; /* Ensure the dropdown appears above other elements */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.required {
+    color: red;
+}

@@ -1,0 +1,192 @@
+.hero2{
+    height: 100vh;
+    background: linear-gradient(180deg, #52a8f8, #e1ffea22 100%);;
+    display: flex;
+}
+.hero2-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    padding-left: 180px;
+    line-height: 1.1;
+    margin-top: 3380px;
+}
+.hero2-left h2{
+    color: #090909;
+    font-size: 26px;
+    font-weight: 600;
+}
+.hero2-left p{
+    color: #171717;
+    font-size: 100px;
+    font-weight: 700;
+}
+.men-images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-template-rows: repeat(2, auto); /* 2 rows */
+    grid-gap: 10px; /* Adjust the gap between images */
+    margin-top: 350px;
+  }
+  
+  .men-images img {
+    width: 100%; 
+    height: auto; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 50px;
+  }
+  
+  .men-images img:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
+  }
+  .image-container-1 p{
+    font-size: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .m-sizes {
+    position: absolute;
+    bottom: -600px;
+    right: 1200px;
+  }
+  
+  .m-sizes button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+ .m-sizes button:hover {
+    background-color: #555;
+  } 
+  .m-sizes-2 button{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .m-sizes-2{
+    position: absolute;
+    bottom: -1270px;
+    right: 1200px;
+  }
+  .m-sizes-2 button:hover {
+    background-color: #555;
+  }
+  .m-sizes-3 button{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .m-sizes-3{
+    position: absolute;
+    bottom: -1950px;
+    right: 1200px;
+  }
+
+  .m-sizes-3 button:hover{
+    background-color: #555;
+  }
+  .m-sizes-4 button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .m-sizes-4 {
+    position: absolute;
+    bottom: -2630px;
+    right: 1200px;
+  }
+  .m-sizes-4 button:hover{
+    background-color: #555;
+  }
+  .m-sizes-5 button{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+  .m-sizes-5{
+    position: absolute;
+    bottom: -3300px;
+    right: 1200px;
+  }
+
+  .m-sizes-5 button:hover{
+    background-color: #555;
+  }
+
+  .m-sizes-6 button{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .m-sizes-6{
+    position: absolute;
+    bottom: -3970px;
+    right: 1200px;
+  }
+  .m-sizes-6 button:hover{
+    background-color: #555;
+  }
+
+  .m-sizes-7 button{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .m-sizes-7{
+    position: absolute;
+    bottom: -4650px;
+    right: 1200px;
+  }
+  .m-sizes-7 button:hover{
+    background-color: #555;
+  }
+
+  .m-sizes-8 button{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .m-sizes-8{
+    position: absolute;
+    bottom: -5330px;
+    right: 1200px;
+  }

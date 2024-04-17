@@ -1,0 +1,192 @@
+.hero4{
+    height: 100vh;
+    background: linear-gradient(180deg, #f8be52, #e1ffea22 100%);;
+    display: flex;
+}
+.hero4-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    padding-left: 180px;
+    line-height: 1.1;
+    margin-top: 3380px;
+}
+.hero4-left h2{
+    color: #090909;
+    font-size: 26px;
+    font-weight: 600;
+}
+.hero4-left p{
+    color: #171717;
+    font-size: 100px;
+    font-weight: 700;
+}
+.kid-images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-template-rows: repeat(2, auto); /* 2 rows */
+    grid-gap: 10px; /* Adjust the gap between images */
+    margin-top: 350px;
+  }
+  
+  .kid-images img {
+    width: 100%; /* Make images fill their grid cell */
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #ddd; /* Example border */
+    border-radius: 5px; /* Example border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Example shadow */
+    margin-bottom: 50px;
+  }
+  
+  .kid-images img:hover {
+    transform: scale(1.05); /* Example hover effect */
+    transition: transform 0.3s ease; /* Smooth transition */
+  }
+  .image-container-2 p{
+    font-size: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .k-sizes {
+    position: absolute;
+    bottom: -600px;
+    right: 1200px;
+  }
+  
+  .k-sizes button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+ .k-sizes button:hover {
+    background-color: #555;
+  } 
+  .k-sizes-2 button{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .k-sizes-2{
+    position: absolute;
+    bottom: -1270px;
+    right: 1200px;
+  }
+  .k-sizes-2 button:hover {
+    background-color: #555;
+  }
+  .k-sizes-3 button{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .k-sizes-3{
+    position: absolute;
+    bottom: -1950px;
+    right: 1200px;
+  }
+
+  .k-sizes-3 button:hover{
+    background-color: #555;
+  }
+  .k-sizes-4 button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .k-sizes-4 {
+    position: absolute;
+    bottom: -2630px;
+    right: 1200px;
+  }
+  .k-sizes-4 button:hover{
+    background-color: #555;
+  }
+  .k-sizes-5 button{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+  .k-sizes-5{
+    position: absolute;
+    bottom: -3300px;
+    right: 1200px;
+  }
+
+  .k-sizes-5 button:hover{
+    background-color: #555;
+  }
+
+  .k-sizes-6 button{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .k-sizes-6{
+    position: absolute;
+    bottom: -3970px;
+    right: 1200px;
+  }
+  .k-sizes-6 button:hover{
+    background-color: #555;
+  }
+
+  .k-sizes-7 button{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .k-sizes-7{
+    position: absolute;
+    bottom: -4650px;
+    right: 1200px;
+  }
+  .k-sizes-7 button:hover{
+    background-color: #555;
+  }
+
+  .k-sizes-8 button{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .k-sizes-8{
+    position: absolute;
+    bottom: -5330px;
+    right: 1200px;
+  }
